@@ -8,6 +8,7 @@ html {
 }
 header{
     height: 720px;
+    margin-bottom: 15px;
 }
 .header{
     width: 100%;
