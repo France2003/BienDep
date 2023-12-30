@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    /* margin-top: -100px; */
+    margin-bottom: 50px;
+    
+}
+.main .main_intro .text-content{
+    text-align: center;
+    margin-top: 15px;
+}
+.main .main_intro .text-content h1{
+    font-size: 26px;
+    color: #1c1c1c;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.main .main_intro .text-content hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(249, 169, 140);
+}
+.main .main_intro .text-content p{
+    color: #7C7C7C;
+    margin: 10px;
+    font-size: 17.5px;
+}
+.main .main_intro .beach{
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+    background-size: cover;
+    transition: 1s;
+    margin-top: 10px;
+}
+.main .main_intro .beach h2{
+    position: relative;
+    top: 90px;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    transition: 1.5s;
+    font-weight: 300;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0;
+}
+.main .main_intro .beach:hover{
+    opacity: 0.7;
+    transition: 1s;
+}
+.main .main_intro .beach:hover h2{
+    animation: showcontent 1s ease-in-out 1 forwards;
+    opacity: 1;
+}
+@keyframes showcontent{
+    from{
+        opacity: 0;
+        transform: translate(0,100px);
+        filter: blur(33px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0,0);
+        filter: blur(0);
+    }
+}
+.main .main_intro .main_beach{
+    height: 480px;
+    width: 70%;
+    display: flex;
+    /* gap: 5px; */
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.beach_East{
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 610px;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+.beach_East .East_content p{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.beach_East .East_content hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(243, 144, 108);
+}
+/*  */
+.wrapper{
+    height: 480px;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    /* justify-content:space-evenly; */
+    flex-wrap: wrap;
+}
+.wrapper .east{
+    /* border-radius: 50%; */
+    width:300px;
+    height:250px;
+    background-position: 30% 90%;
+    display: inline-block;
+    transition: 1s;
+    background-size: 200%;
+    z-index: 1;
+}
+.east:hover{
+    background-size: 230%;
+    transition: 1s;
+}
+.east .name_beach{
+    margin-top: 180px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+    opacity: 0.8;
+    padding: 5px;
+}
+.east .name_beach span{
+    color:#ffffff;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 300;
+    grid-area: auto;
+    margin: 1.44px 0;
+    text-transform: uppercase;
+}
+.east .name_beach p{
+    margin-top: -15px;
+    color: #ffffff;
+    font-size: 10.8px;
+    font-weight: 300;
+    text-transform:uppercase;
+    letter-spacing: 0.85px;
+}
+.wrapper .coconuct{
+    position:absolute;
+    right: 50px;
+}
+.coconuct img{
+    width: 350px;
+}
+.help{
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    /* height: 502px; */
+}
+.help h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27.2px;
+    margin: 0px 0px 13.6px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.help hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(249, 169, 140);
+}
+.help .helpContent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.help .helpContent .content_help{
+    width: 340px;
+    text-align: center;
+}
+.help .helpContent .content_help img{
+    width: 250px;
+    height: 150px;
+}
+.help .helpContent .content_help h4{
+    color: #1c1c1c;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 0 10px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.help .helpContent .content_help  p{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #676767;
+    font-weight: 300;
+    grid-area: auto;
+    line-height: 25.6px; 
+}
+/* North */
+.beach_North{
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 610px;
+    filter: grayscale(20%);
+    opacity: 1;
+    z-index: -1;
+}
+
+.beach_North .North_content p{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.beach_North .North_content hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(243, 144, 108);
+}
+/*  */
+.wrapper{
+    height: 480px;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    /* justify-content:space-evenly; */
+    flex-wrap: wrap;
+}
+.wrapper .north{
+    /* border-radius: 50%; */
+    width:300px;
+    height:250px;
+    background-position: 40% 80%;
+    display: inline-block;
+    transition: 1s;
+    background-size: 200%;
+    z-index: 1;
+}
+.north:hover{
+    background-size: 230%;
+    transition: 1s;
+}
+.north .name_beach{
+    margin-top: 180px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+    opacity: 0.8;
+    padding: 5px;
+}
+.north .name_beach span{
+    color:#ffffff;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 300;
+    grid-area: auto;
+    margin: 1.44px 0;
+    text-transform: uppercase;
+}
+.north .name_beach p{
+    margin-top: -15px;
+    color: #ffffff;
+    font-size: 10.8px;
+    font-weight: 300;
+    text-transform:uppercase;
+    letter-spacing: 0.85px;
+}
+/* Vehical */
+.vehical{
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 320px;
+    /* filter: grayscale(20%); */
+    opacity: 1;
+}
+.vehical{
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    /* height: 502px; */
+}
+.vehical h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27.2px;
+    margin: 0px 0px 13.6px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.vehical hr{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(249, 169, 140);
+}
+.vehical .vehical_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.vehical .vehical_content .phuongtien{
+    width: 340px;
+    text-align: center;
+}
+.vehical .vehical_content .phuongtien img{
+    width: 250px;
+    height: 150px;
+}
+.vehical .vehical_content .phuongtien h4{
+    color: #1c1c1c;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 0 10px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.vehical .vehical_content .phuongtien  p{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #676767;
+    font-weight: 300;
+    grid-area: auto;
+    line-height: 25.6px; 
+}
+/* West */
+.beach_West{
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 610px;
+    filter: grayscale(20%);
+    opacity: 1;
+    z-index: -1;
+}
+
+.beach_West .West_content p{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.beach_West .West_content hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(243, 144, 108);
+}
+/*  */
+.wrapper{
+    height: 480px;
+    width: 70%;
+    display: flex;
+    /* gap: 16px; */
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.wrapper .west{
+    /* border-radius: 50%; */
+    width:350px;
+    height:250px;
+    background-position: 20% 90%;
+    display: inline-block;
+    transition: 1s;
+    background-size: 190%;
+    z-index: 1;
+}
+.west:hover{
+    background-size: 210%;
+    transition: 1s;
+}
+.west .name_beach{
+    margin-top: 180px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+    opacity: 0.8;
+    padding: 5px;
+}
+.west .name_beach span{
+    color:#ffffff;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 300;
+    grid-area: auto;
+    margin: 1.44px 0;
+    text-transform: uppercase;
+}
+.west .name_beach p{
+    margin-top: -15px;
+    color: #ffffff;
+    font-size: 10.8px;
+    font-weight: 300;
+    text-transform:uppercase;
+    letter-spacing: 0.85px;
+}
+/* Access*/
+.access{
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 320px;
+    /* filter: grayscale(20%); */
+    opacity: 1;
+}
+.access{
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    /* height: 502px; */
+}
+.access h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27.2px;
+    margin: 0px 0px 13.6px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.access hr{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(249, 169, 140);
+}
+.access .access_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.access .access_content .use{
+    width: 340px;
+    text-align: center;
+}
+.access .access_content .use img{
+    width: 250px;
+    height: 150px;
+}
+.access .access_content .use h4{
+    color: #ffb300;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 0 10px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.access .access_content .use  p{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
+    font-weight: 300;
+    grid-area: auto;
+    line-height: 25.6px; 
+}
+/* South */
+.beach_South{
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 610px;
+    filter: grayscale(20%);
+    opacity: 1;
+    z-index: -1;
+}
+
+.beach_South .South_content p{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.beach_South .South_content hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(243, 144, 108);
+}
+/*  */
+.wrapper{
+    height: 480px;
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    /* justify-content:space-evenly; */
+    flex-wrap: wrap;
+}
+.wrapper .south{
+    /* border-radius: 50%; */
+    width:300px;
+    height:250px;
+    background-position: 40% 80%;
+    display: inline-block;
+    transition: 1s;
+    background-size: 200%;
+    z-index: 1;
+}
+.south:hover{
+    background-size: 230%;
+    transition: 1s;
+}
+.south .name_beach{
+    margin-top: 180px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #1c1c1c;
+    opacity: 0.8;
+    padding: 5px;
+}
+.south .name_beach span{
+    color:#ffffff;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 300;
+    grid-area: auto;
+    margin: 1.44px 0;
+    text-transform: uppercase;
+}
+.south .name_beach p{
+    margin-top: -15px;
+    color: #ffffff;
+    font-size: 10.8px;
+    font-weight: 300;
+    text-transform:uppercase;
+    letter-spacing: 0.85px;
+}
+/* Indicator */
+.indicator{
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+    /* height: 502px; */
+}
+.indicator h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27.2px;
+    margin: 0px 0px 13.6px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.indicator hr{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(249, 169, 140);
+}
+.indicator .indicator_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.indicator .indicator_content .member{
+    width: 340px;
+    text-align: center;
+}
+.indicator .indicator_content .member img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.indicator .indicator_content .member h4{
+    color: #ffb300;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0 0 10px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.indicator .indicator_content .member  p{
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
+    font-weight: 300;
+    grid-area: auto;
+    line-height: 25.6px; 
+    font-size: 20px;
+}
+.email{
+    margin-top: 45px;
+    height: 300px;
+    line-height: 45px;
+    text-align: center;
+    background-repeat: repeat;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+.email p{
+    padding-top: 45px;
+    color: rgb(44, 39, 39);
+    text-align: center;
+    font-size: 18px;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.email h2{
+    color: rgb(53, 49, 49);
+    font-size: 700;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 25px;
+    text-align: center;
+}
+.email hr{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 25px;
+    border: 2px solid rgb(243, 144, 108);
+}
+.email input{
+    padding: 5px;
+    width: 380px;
+    height: 35.5px;
+    font-size: 18px;
+    outline: #ffb300;
+    border: none;
+}
+.email input::placeholder{
+    font-size: 15px;
+    color: #908f8f;
+}
+.email input:focus{
+    box-shadow: #908f8f 0px 0px 5px 0px;
+}
+.email button{
+    padding: 5px;
+    height: 35px;
+    width: 55px;
+    background: #ffb300;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.email button:hover{
+    background: #c38d0e;
+}

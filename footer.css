@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.footer{
+    /* height: 500px; */
+    background-image: url("/img/bg-section-videos.jpg");
+    background-repeat: repeat;
+    background-position: 10%;
+    width: 100%;
+    line-height: 35px;
+}
+.footer .Title h1{
+    background-image: url("/img/anh-ha-long-ve-chieu-toi.jpg");
+    background-size: cover;
+    background-clip: text;
+    text-transform: uppercase;
+    color: transparent;
+    text-align: center;
+    /* font-size: 35px; */
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.footer .Information{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-left: 30px;
+    gap: 15px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+/* Contact */
+.footer .Information .contact{
+    /* width: 20%; */
+    /* margin-top: 15px; */
+    padding: 0 30px 30px;
+}
+.footer .Information .contact p{
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer .Information .contact ul{
+    display: block;
+    padding: 5px;
+    line-height: 35px;
+}
+.footer .Information .contact ul li{
+    color: #A5A5A5;
+    font-size: 16px;
+    list-style: none;
+    padding: 5px;
+}
+.footer .Information .contact ul li a{
+    color: #A5A5A5;
+    text-align: center;
+    text-decoration: none;
+}
+.footer .Information .contact ul li a:hover{
+    color: white;
+}
+.footer .Information .contact .iconContact{
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+.footer .Information .contact .iconContact  li{
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+    animation: run 2.5s;
+    animation-delay: 0s;
+    opacity: 1;
+}
+@keyframes run{
+    0%{
+        opacity: 0;
+        transform: scale3d(5.5) translate3d(-5px);
+    }
+    100%{
+        opacity: 1;
+        font-size: 18px;
+    }
+}
+.footer .Information .contact .iconContact  li:hover{
+    transform: translateY(-5px) scale(1.5);
+}
+/* News */
+.footer .Information .news{
+    /* width: 20%; */
+    /* margin-top: 15px; */
+    padding: 0 30px 30px;
+}
+.footer .Information .news p{
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer .Information .news ul{
+    display: block;
+    padding: 5px;
+    line-height: 35px;
+}
+.footer .Information .news ul li{
+    color: #A5A5A5;
+    font-size: 16px;
+    list-style: none;
+    padding: 5px;
+}
+.footer .Information .news ul li a{
+    color: #A5A5A5;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+}
+.footer .Information .news ul li a:hover{
+    color: white;
+}
+/* Menu */
+.footer .Information .menuFooter{
+    /* width: 20%; */
+    /* margin-top: 15px; */
+    padding: 0 30px 30px;
+}
+.footer .Information .menuFooter p{
+    text-align: center;
+    color: #A5A5A5;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer .Information .menuFooter ul{
+    display: block;
+    padding: 5px;
+    line-height: 35px;
+}
+.footer .Information .menuFooter ul li{
+    color: #A5A5A5;
+    font-size: 16px;
+    list-style: none;
+    padding: 5px;
+}
+.footer .Information .menuFooter ul li a{
+    color: #A5A5A5;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding-left: 15px;
+}
+.footer .Information .menuFooter ul li a:hover{
+    color: white;
+}
+.footer .end .hr{
+    color: white;
+    width: 74%;
+    margin-left: 190px;
+}
+.footer .end p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.footer .end h5{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding-left: 18px;
+}
+@media (max-width:768px){
+    .Title h2{
+        margin: 0px;
+        /* width: 395px; */
+        font-size: 30px;
+    }
+    .Information{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .contact{
+        /* width: 100%; */
+        margin-left: -54px;
+    }
+    .iconContact li{
+        text-align: center;
+        margin-left: 42px;
+    }
+    .news{
+        margin-left: -69px;
+        margin-top: -39px;
+        width: 74%;
+    }
+    .menuFooter{
+        /* width: 117%; */
+        margin-left: -63px;
+        margin-top: -39px;
+    }
+    hr{
+        width: 92%;
+        margin-left: -124px;
+    }
+}
