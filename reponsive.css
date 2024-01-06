@@ -1,0 +1,36 @@
+/* Mobile & Tablet */
+
+@media (max-width :1023px) {
+    .menu-child{
+        display: block;
+        z-index: 0;
+    }
+    .menu__heading-list{
+        display: none;
+    }
+}
+
+/* Tablet */
+
+@media (min-width :740px) and (max-width: 1023px) {
+
+    .slider-img{
+        margin-top: -185px;
+        height: 300px;
+    }
+
+}
+
+/*  Mobile  */
+
+@media (max-width :739px) {
+    
+    .main{
+        margin: 0 20px;
+    } 
+    .slider-img{
+        width: 350px;
+        margin-top: -185px;
+        height: 200px;
+    }
+}

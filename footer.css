@@ -24,7 +24,6 @@ html {
     text-align: center;
     /* font-size: 35px; */
     font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 10px;
 }
 .footer .Information{
@@ -175,10 +174,9 @@ html {
     letter-spacing: 2px;
     padding-left: 18px;
 }
-@media (max-width:768px){
+/* @media (max-width:768px){
     .Title h2{
         margin: 0px;
-        /* width: 395px; */
         font-size: 30px;
     }
     .Information{
@@ -187,7 +185,6 @@ html {
         width: 100%;
     }
     .contact{
-        /* width: 100%; */
         margin-left: -54px;
     }
     .iconContact li{
@@ -200,7 +197,6 @@ html {
         width: 74%;
     }
     .menuFooter{
-        /* width: 117%; */
         margin-left: -63px;
         margin-top: -39px;
     }
@@ -208,4 +204,4 @@ html {
         width: 92%;
         margin-left: -124px;
     }
-}
+} */

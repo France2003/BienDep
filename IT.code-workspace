@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../IT"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BTapLonAT"
+	}
+}

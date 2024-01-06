@@ -1,0 +1,406 @@
+/* Mobile & Tablet */
+
+@media (max-width :1023px) {
+    .menu {
+        display: none;
+    }
+
+    .search {
+        margin-top: 140px;
+    }
+
+    .slideshow {
+        margin-top: 200px;
+    }
+
+    .home_slide__background {
+        margin-top: 50px;
+    }
+
+    .menu__mobile {
+        display: block;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .menu__item {
+        display: none;
+        position: absolute;
+        width: 400px;
+        background-color: white;
+        z-index: 100;
+        border-radius: 2px;
+        box-shadow: 0 2px 3px #717070;
+    }
+
+    .header {
+        align-items: center;
+        height: 200px;
+        top: -35px;
+    }
+
+    .menu-East,
+    .menu-North,
+    .menu-West,
+    .menu-South {
+        display: none;
+    }
+
+    .menu__item-list {
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #575757;
+    }
+
+    .menu__item-list-head {
+        padding: 10px 10px;
+    }
+
+    .search {
+        margin-left: 0px;
+    }
+
+
+    .slideshow,
+    .home_slide__item,
+    .home_slide__background {
+        height: 500px;
+    }
+
+    .slideshow {
+        margin-top: 50px;
+    }
+
+    .main_slide__nav {
+        margin-top: -215px;
+    }
+
+    .main_slide__dots {
+        top: 495px;
+    }
+
+    .home_slide__background {
+        padding-bottom: 50px;
+    }
+
+    .home_slider__content h1:first-child {
+        font-size: 70px;
+        margin-bottom: -125px;
+    }
+
+    /* main */
+
+    .main_intro {
+        margin-top: -245px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .main .main_intro .beach {
+        width: 170px;
+        height: 170px;
+        margin: 25px 8px 0;
+    }
+
+    .vehical .vehical_content .phuongtien img {
+        width: 160px;
+    }
+
+    .vehical .vehical_content .phuongtien p {
+        font-size: 14px;
+    }
+
+    .vehical {
+        /* border: 1px solid black; */
+        margin: 60px 0;
+        /* height: 502px; */
+    }
+
+    .help {
+        /* border: 1px solid black; */
+        margin: 60px 20px;
+        /* height: 502px; */
+    }
+
+    .access {
+        /* border: 1px solid black; */
+        margin: 60px 0;
+        /* height: 502px; */
+    }
+
+    .indicator {
+        /* border: 1px solid black; */
+        margin: 60px 20px;
+        /* height: 502px; */
+    }
+
+    .indicator .indicator_content .member img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .main .main_intro .main_beach {
+
+        margin-bottom: 150px;
+    }
+
+    .east.hide {
+        display: none;
+    }
+
+    .south.hide {
+        display: none;
+    }
+    .coconuct{
+        display: none;
+    }
+    /* footer */
+    /* .footer .Information .contact ul li {
+        font-size: 15px;
+        width: 206px;
+    } */
+    .footer .Information .contact {
+        width: 20%;
+        /* margin-top: 15px; */
+
+    }
+
+    .footer .Information .contact ul li {
+
+        width: 200px;
+    }
+
+    .footer .Information .news ul {
+        margin-left: 70px;
+    }
+
+    .footer .end .hr {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+    /* .footer .Information .news p {
+
+        font-size: 14px;
+
+    }
+    .footer .Information .contact p {
+
+        font-size: 14px;
+
+    }
+    .footer .Information .menuFooter p {
+
+        font-size: 14px;
+
+    }
+    .footer .Information .contact ul li {
+        color: #A5A5A5;
+        font-size: 12px;
+        list-style: none;
+        padding: 5px;
+    } */
+
+    /* .footer .Information {
+        flex-wrap: wrap;
+    }
+    .footer .Information .contact {
+        width: 63%;
+
+    } */
+}
+
+/* Tablet */
+
+@media (min-width :740px) and (max-width: 1023px) {}
+
+/*  Mobile  */
+
+@media (max-width :739px) {
+    .search input {
+        width: 56%;
+        margin-left: 22%;
+    }
+
+    .search {
+        margin-left: 0px;
+        width: 650px;
+    }
+
+    .main_slide__nav {
+        margin-top: -165px;
+        font-size: 30px;
+    }
+
+    .home_slider__content h1:first-child {
+        font-size: 35px;
+        margin-bottom: -160px;
+        padding-top: 100px;
+    }
+
+    .nav__prev {
+        margin-right: 25px;
+    }
+
+    .home_slide__background {
+        padding-bottom: 26px;
+        height: 360px;
+    }
+
+    .slideshow {
+
+        margin-top: -88px;
+    }
+
+    .main_slide__dots {
+        top: 370px;
+        right: 15px;
+    }
+
+    .customs_dot {
+        padding: 0 8px;
+    }
+    .About a {
+
+        font-size: 13px;
+
+    }
+    /* MAIN */
+    .main .main_intro .main_beach {
+
+        width: 100%;
+
+    }
+    .coconuct{
+        display: none;
+    }
+    .beach.hide-on-mobile {
+        display: none;
+    }
+
+    .wrapper .east {
+        /* border-radius: 50%; */
+        width: 170px;
+        height: 160px;
+
+    }
+
+    .east .name_beach {
+        margin-top: 160px;
+    }
+
+    .help .helpContent {
+        flex-wrap: wrap;
+    }
+
+    .wrapper .north {
+        /* border-radius: 50%; */
+        width: 170px;
+        height: 160px;
+    }
+
+    .north .name_beach {
+        margin-top: 160px;
+    }
+
+    .West_content {
+        margin-top: 400px;
+    }
+
+    .vehical .vehical_content {
+        flex-wrap: wrap;
+    }
+
+    .vehical .vehical_content .phuongtien {
+        width: 170px;
+
+    }
+
+    .wrapper .west {
+        /* border-radius: 50%; */
+        width: 170px;
+        height: 160px;
+
+    }
+
+    .west .name_beach {
+        margin-top: 160px;
+    }
+
+    .access .access_content .use img {
+        width: 150px;
+        height: 125px;
+    }
+
+    .wrapper .south {
+        /* border-radius: 50%; */
+        width: 170px;
+        height: 160px;
+
+    }
+
+    .south .name_beach {
+        margin-top: 160px;
+    }
+
+    .indicator .indicator_content .member img {
+        width: 110px;
+        height: 110px;
+    }
+
+    .indicator .indicator_content .member h4 {
+        font-size: 18px;
+    }
+
+    .indicator .indicator_content .member p {
+        font-size: 16px;
+    }
+
+    .main .main_intro .beach h2 {
+
+        top: 75px;
+    }
+    .nav__prev,.nav__next{
+        top: 60%;
+    }
+
+    /* footer */
+
+    .footer .Information {
+        flex-wrap: wrap;
+    }
+
+    .footer .Information .contact {
+        width: 70%;
+
+    }
+    .footer .Information .news ul {
+        margin-left: 7px;
+    }
+    .footer .Information .news p {
+
+        margin-left: -30px;
+
+    }
+    .footer .Information .contact p {
+
+        margin-left: -30px;
+
+    }
+    .footer .Information .menuFooter p {
+
+        margin-left: -30px;
+
+    }
+}
