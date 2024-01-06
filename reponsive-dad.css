@@ -91,6 +91,9 @@
         font-size: 70px;
         margin-bottom: -125px;
     }
+    /* .nav__prev,.nav__next{
+        top: 20%;
+    } */
 
     /* main */
 
@@ -162,6 +165,7 @@
     .south.hide {
         display: none;
     }
+
 
     /* footer */
     /* .footer .Information .contact ul li {
@@ -238,7 +242,7 @@
     }
 
     .main_slide__nav {
-        margin-top: -165px;
+        margin-top: -105px;
         font-size: 30px;
     }
 
