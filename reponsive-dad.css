@@ -103,13 +103,14 @@
     }
 
     .wrapper {
+        margin-left: 1px;
         width: 100%;
     }
 
     .main .main_intro .beach {
-        width: 170px;
-        height: 170px;
-        margin: 25px 8px 0;
+        width: 158px;
+        height: 158px;
+        margin: -5px 20px 30px -38px;
     }
 
     .vehical .vehical_content .phuongtien img {
@@ -161,9 +162,7 @@
     .south.hide {
         display: none;
     }
-    .coconuct{
-        display: none;
-    }
+
     /* footer */
     /* .footer .Information .contact ul li {
         font-size: 15px;
@@ -278,20 +277,21 @@
     }
     /* MAIN */
     .main .main_intro .main_beach {
-
+        margin-left: 35px;
         width: 100%;
+        gap: 22px;
 
     }
-    .coconuct{
-        display: none;
-    }
+
     .beach.hide-on-mobile {
         display: none;
     }
 
     .wrapper .east {
         /* border-radius: 50%; */
-        width: 170px;
+        margin-left: -2px;
+        /* border-radius: 50%; */
+        width: 155px;
         height: 160px;
 
     }
@@ -306,7 +306,9 @@
 
     .wrapper .north {
         /* border-radius: 50%; */
-        width: 170px;
+        margin-left: -2px;
+    /* border-radius: 50%; */
+        width: 155px;
         height: 160px;
     }
 
@@ -323,13 +325,15 @@
     }
 
     .vehical .vehical_content .phuongtien {
-        width: 170px;
+        width: 160px;
 
     }
 
     .wrapper .west {
         /* border-radius: 50%; */
-        width: 170px;
+        margin-left: -2px;
+        /* border-radius: 50%; */
+        width: 155px;
         height: 160px;
 
     }
@@ -345,7 +349,9 @@
 
     .wrapper .south {
         /* border-radius: 50%; */
-        width: 170px;
+        margin-left: -2px;
+    /* border-radius: 50%; */
+        width: 155px;
         height: 160px;
 
     }
@@ -370,9 +376,10 @@
     .main .main_intro .beach h2 {
 
         top: 75px;
+
     }
-    .nav__prev,.nav__next{
-        top: 60%;
+    .email input{
+        width: 80%;
     }
 
     /* footer */
